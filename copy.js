@@ -10,5 +10,5 @@ $('.copy-btn').click(function () {
     setTimeout(() => {
         $('.msg-box').removeClass('show');
         $('.paste-box').addClass('show');
-    }, 2000);
+    }, 3000);
 });

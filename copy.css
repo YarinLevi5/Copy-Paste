@@ -29,8 +29,7 @@ body {
 
 }
 
-.copy-btn,
-.save-btn {
+.copy-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,8 +42,7 @@ body {
     transition: all 1s;
 }
 
-.copy-btn:hover,
-.save-btn:hover {
+.copy-btn:hover {
     background-color: rgb(56, 56, 250);
     color: white;
 }
@@ -73,13 +71,6 @@ body {
 .paste-box {
     font-size: 20px;
     display: none;
-}
-
-.save-btn {
-    padding: 10px;
-    color: gray;
-    font-size: 20px;
-    box-shadow: inset rgb(247, 81, 247) 2px 1px 10px;
 }
 
 .hide {
